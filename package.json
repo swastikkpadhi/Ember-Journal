@@ -1,0 +1,13 @@
+{
+  "name": "ember-journal",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A private encrypted diary with gentle daily reflection",
+  "engines": { "node": ">=24.13.0 <25" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "dev": "node --watch --env-file-if-exists=.env server.js",
+    "test": "node --test tests/*.test.js"
+  }
+}
